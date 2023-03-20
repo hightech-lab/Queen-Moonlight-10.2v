@@ -1,23 +1,3 @@
-// S C R I P T  O R I  B Y  Bochilgaming 🔭
-// Ditulis Ulang Oleh ImYanXiao
-// Credits, jangan dihapus atau diubah!
-
-// - - THANKS TO - -
-// • Allah SWT
-// • Nurutomo
-// • Bochilgaming
-// • Rominaru
-// • Kannachann
-// • FahriAdison
-// • The.Sad.Boy01
-// • Rlxfly
-// • Rasel comel
-// • ImYanXiao
-// • Xtreshe (Beban)
-// • Dll
-
-//[!] Jangan Lupa Ganti Ownernya
-
 import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
@@ -47,31 +27,31 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/Xiao_yan_21' //Link Instagrammu
-global.sgh = 'https://github.com/ImYanXiao' //Link Githubmu
-global.sgc = 'https://chat.whatsapp.com/DyBMXDw1IshFM9z0ZHZNlR'
+global.sig = 'https://github.com/hightech-lab' //Link Instagrammu
+global.sgh = 'https://github.com/hightech-lab' //Link Githubmu
+global.sgc = 'https://chat.whatsapp.com/FtNpa9CPTFxE7NXofQqdjW'
 global.sdc = '-' //Isi Pake Link Discordmu Kalo Gada Biarin aja
-global.snh = 'https://nhentai.net/g/HaramTod🗿' //Hmmm, Ini boleh kalian isi terserah :v
+global.snh = 'https://nhentai.net/' //Hmmm, Ini boleh kalian isi terserah :v
 
 /*============== PAYMENT ==============*/
-global.pdana = '085736178354' //Nomor Danamu
-global.ppulsa = '085736178354' //Nomor SimCard Yang Kamu Pake
-global.psaweria = 'https://saweria.com/XiaoYan021' //Link Saweriamu Kalo Nggada Ketik - aja
+global.pdana = '94753420144' //Nomor Danamu
+global.ppulsa = '947534201444' //Nomor SimCard Yang Kamu Pake
+global.psaweria = 'https://youtube.com/@hightechlab2022' //Link Saweriamu Kalo Nggada Ketik - aja
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6281231079387' //Nomor Bot
-global.nomorown = '6285736178354' //Nomor Owner
-global.namebot = 'Elaina BOT' //Nama Bot
-global.nameown = '𝓧𝓲𝓪𝓸 - 𝓨𝓪𝓷' // Nama Owner
+global.nomorbot = '94741452999' //Nomor Bot
+global.nomorown = '94753420144' //Nomor Owner
+global.namebot = 'Queen Moonlight Bot' //Nama Bot
+global.nameown = 'Mr . Techo' // Nama Owner
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6285736178354', '❦ 𝚇 𝚒 𝚊 𝚘 - 𝚈𝚊𝚗? 🎐', true] //Ganti jd nomormu sama Namamu
+  ['94753420144', 'Mr . Techo', true] //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
-global.mods = [] // Want some help?
-global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
+global.mods = ['94753420144'] // Want some help?
+global.prems = ['94753420144'] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
 
 
 global.lolkey = 'apikeymu'
@@ -99,13 +79,13 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 ᴇʟᴀɪɴᴀ 𝙱𝙾𝚃 汉  」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘ᴇʟᴀɪɴᴀ - ᴄʜᴀɴ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ ᴇʟᴀɪɴᴀ 𝙱𝙾𝚃'
-global.namedoc = 'Elaina`s Bot' //Main Name Menu Document
+global.wm = 'Queen Moonlight Bot 汉' //Main Watermark
+global.wm2 = 'QUEEN MOONLIGHT\nWEBSITE : https://github.com/hightech-lab'
+global.wm3 = 'Queen Moonlight Bot'
+global.namedoc = '💃 Queen Moonlight 💃' //Main Name Menu Document
 global.botdate = `⫹⫺ Day's: ${week} ${date}`
 global.bottime = `ᴛɪᴍᴇ: ${wktuwib}`
-global.titlebot = '🎋 ┊ 𝗥𝗣𝗚 ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
+global.titlebot = '💃 ┊ RPG WHATSAPP BOT'
 global.author = global.wm
 
 
@@ -330,7 +310,7 @@ global.wait = '```「▰▰▰▱▱▱▱▱▱▱」Loading...```'
 global.eror = '```404 error```'
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '+62 857-3617-8354'
+global.phn = '+94 75-342-0144'
 
 /*=========== TYPE DOCUMENT ===========*/
 global.dpptx = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -340,7 +320,7 @@ global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 global.djson = 'application/json'
 
-global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
+global.thumbdoc = 'https://i.ibb.co/tx80nmb/20230208-080442.jpg'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '99999999999999' // default 10TB
@@ -370,10 +350,10 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = '.'
-global.stickauth = `☂︎\n𝗘\nl\na\ni\nn\na\n-\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
-global.packname = 'Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴇʟᴀɪɴᴀ ʙᴏᴛᴢ'
+global.stickpack = 'HIGH TECH LAB'
+global.stickauth = `Queen Moonlight Bot\nwa.me/${global.nomorbot}`
+global.packname = 'Sticker By High Tech Lab'
+global.packname2 = 'Created By Moonlight Bot'
 
 global.multiplier = 38 // The higher, The harder levelup
 
