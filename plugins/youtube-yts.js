@@ -3,7 +3,7 @@ import yts from 'yt-search'
 var handler = async(m, { conn, usedPrefix, text, args, command }) => {
 let name = await conn.getName(m.sender)
 
-  if (!text) throw 'Cari apa?'
+  if (!text) throw '*_What You Want...?_*\n\nEx : *.yts* How To Create Whatsapp Bot'
   let cari = await yts(`${text}`)
     let dapet = cari.all
     let listSections = []
@@ -13,7 +13,7 @@ let name = await conn.getName(m.sender)
           ['Audio 🎧', usedPrefix + 'getaud ' + v.url, '\n⌚ *Duration:* ' + v.timestamp + '\n⏲️ *Uploaded:* ' + v.ago + '\n👁️ *Views:* ' + v.views + '\n📎 *Url:* ' + v.url]
         ]])
 	}) 
-	return conn.sendList(m.chat, '*───「 Youtube Search 」───*', `Silahkan pilih type di bawah...\n*Teks yang anda minta:* ${text}\n\nKetik ulang *${usedPrefix + command}* teks anda untuk mengubah teks lagi`, author, `YouTube Search 🔎`, listSections, m)
+	return conn.sendList(m.chat, '*💃 MOONLIGHT YT SEARCH 💃*', `*Queen Moonlight Youtube Search Box...*\n*You searched for:* ${text}\n\nIf You Can Use *${usedPrefix + command}* To search for videos on YouTube`, author, `💌 YOUTUBE SEARCH 💌`, listSections, m)
 }
 handler.help = ['ytsearch <query>']
 handler.tags = ['internet']
