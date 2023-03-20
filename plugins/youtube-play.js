@@ -1,34 +1,46 @@
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 import yts from 'yt-search'
 var handler = async (m, { conn, command, text, usedPrefix }) => {
-  if (!text) throw `Use example ${usedPrefix}${command} naruto blue bird`
+  if (!text) throw `Use example *${usedPrefix}${command}* manike mage hithe`
   await m.reply(wait)
   let search = await yts(text)
   let vid = search.videos[Math.floor(Math.random() * search.videos.length)]
-  if (!search) throw 'Video Not Found, Try Another Title'
+  if (!search) throw '*Video Not Found, Try Another Title*'
   let { title, thumbnail, timestamp, views, ago, url } = vid
 
-  let captvid = `╭──── 〔 Y O U T U B E 〕 ─⬣
-⬡ Judul: ${title}
-⬡ Durasi: ${timestamp}
-⬡ Views: ${views}
-⬡ Upload: ${ago}
-⬡ Link: ${url}
-╰────────⬣`
-  conn.sendButton(m.chat, `╭──── 〔 Y O U T U B E 〕 ─⬣
-⬡ Judul: ${title}
-⬡ Durasi: ${timestamp}
-⬡ Views: ${views}
-⬡ Upload: ${ago}
-⬡ Link: ${url}
-╰────────⬣`, author.trim(), await( await conn.getFile(thumbnail)).data, ['📽VIDEO', `${usedPrefix}getvid ${url} 360`], false, { quoted: m, 'document': { 'url':'https://wa.me/12522518391' },
+  let captvid = `*💃 MOONLIGHT YT DOWNLOADER 💃*
+  
+*💬 Title:* ${title}
+
+*🔛 Duration:* ${timestamp}
+
+*👀 Views:* ${views}
+
+*🧾 Upload:* ${ago}
+
+*🔗 Link:* ${url}
+
+*╰────────⬣*`
+  conn.sendButton(m.chat, `*💃 MOONLIGHT YT DOWNLOADER 💃*
+  
+*💬 Title:* ${title}
+
+*🔛 Duration:* ${timestamp}
+
+*👀 Views:* ${views}
+
+*🧾 Upload:* ${ago}
+
+*🔗 Link:* ${url}
+
+*╰────────⬣*`, author.trim(), await( await conn.getFile(thumbnail)).data, ['🎥 GET VIDEO 🎥', `${usedPrefix}getvid ${url} 360`], false, { quoted: m, 'document': { 'url':'https://wa.me/12522518391' },
 'mimetype': global.dpdf,
-'fileName': `𝕐𝕠𝕦𝕋𝕦𝕓𝕖 ℙ𝕝𝕒𝕪𝕤`,
+'fileName': `MOONLIGHT YT PLAYER`,
 'fileLength': 666666666666666,
 'pageCount': 666,contextInfo: { externalAdReply: { showAdAttribution: true,
 mediaType:  2,
 mediaUrl: `${url}`,
-title: `AUDIO SEDANG DIKIRIM...`,
+title: `UPLOADING YOUR SONG...`,
 body: wm,
 sourceUrl: 'http://wa.me/12522518391', thumbnail: await ( await conn.getFile(thumbnail)).data
   }
