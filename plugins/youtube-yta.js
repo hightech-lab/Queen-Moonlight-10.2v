@@ -6,7 +6,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let pp = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
 let name = await conn.getName(who)
 
-  if (!args || !args[0]) throw 'Uhm... urlnya mana?'
+  if (!args || !args[0]) throw '*-Need YT Video Link..._*\n\nEx : *.yta* https://www.youtube.com/watch?v=Jd_bmOSfwGg'
   let chat = global.db.data.chats[m.chat]
   const isY = /y(es)/gi.test(args[1])
   const { thumbnail, audio: _audio, title } = await youtubedl(args[0]).catch(async _ => await youtubedlv2(args[0])).catch(async _ => await youtubedlv3(args[0]))
@@ -30,13 +30,15 @@ let name = await conn.getName(who)
   }
   if ((!(source instanceof ArrayBuffer) || !link || !res.ok) && !isLimit) throw 'Error: ' + (lastError || 'Can\'t download audio')
   if (!isY && !isLimit) await conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', `
-*${htki} YOUTUBE ${htka}*
+*💃 MOONLIGHT YT SONG DOWNLOADER 💃*
 
-*${htjava} Title:* ${title}
-*${htjava} Type:* mp3
-*${htjava} Filesize:* ${audio.fileSizeH}
+*💌 Title:* ${title}
 
-*L O A D I N G. . .*
+*💌 Type:* MP3
+
+*💌 Filesize:* ${audio.fileSizeH}
+
+*U P L O A D I N G . . .🎵*
 `.trim(), m)
   if (!isLimit) await conn.sendFile(m.chat, source, title + '.mp3', '', fakes, null, { fileLength: fsizedoc, seconds: fsizedoc, mimetype: 'audio/mp4', contextInfo: {
           externalAdReply :{
