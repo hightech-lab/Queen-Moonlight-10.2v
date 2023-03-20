@@ -47,31 +47,31 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/' //Link Instagrammu
-global.sgh = 'https://github.com/hightech-lab' //Link Githubmu
-global.sgc = 'https://chat.whatsapp.com/FtNpa9CPTFxE7NXofQqdjW'
+global.sig = 'https://instagram.com/Xiao_yan_21' //Link Instagrammu
+global.sgh = 'https://github.com/ImYanXiao' //Link Githubmu
+global.sgc = 'https://chat.whatsapp.com/DyBMXDw1IshFM9z0ZHZNlR'
 global.sdc = '-' //Isi Pake Link Discordmu Kalo Gada Biarin aja
-global.snh = 'https://nhentai.net' //Hmmm, Ini boleh kalian isi terserah :v
+global.snh = 'https://nhentai.net/g/HaramTod🗿' //Hmmm, Ini boleh kalian isi terserah :v
 
 /*============== PAYMENT ==============*/
-global.pdana = '94753420144' //Nomor Danamu
-global.ppulsa = '94753420144' //Nomor SimCard Yang Kamu Pake
-global.psaweria = 'https://youtube.com/@hightechlab2022' //Link Saweriamu Kalo Nggada Ketik - aja
+global.pdana = '085736178354' //Nomor Danamu
+global.ppulsa = '085736178354' //Nomor SimCard Yang Kamu Pake
+global.psaweria = 'https://saweria.com/XiaoYan021' //Link Saweriamu Kalo Nggada Ketik - aja
 
 /*============== NOMOR ==============*/
-global.nomorbot = '94753420144' //Nomor Bot
-global.nomorown = '94753420144' //Nomor Owner
-global.namebot = 'High Tech Lab Whatsapp Bot' //Nama Bot
-global.nameown = 'High Tech Lab' // Nama Owner
+global.nomorbot = '6281231079387' //Nomor Bot
+global.nomorown = '6285736178354' //Nomor Owner
+global.namebot = 'Elaina BOT' //Nama Bot
+global.nameown = '𝓧𝓲𝓪𝓸 - 𝓨𝓪𝓷' // Nama Owner
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['94753420144', 'High Tech Lab', true] //Ganti jd nomormu sama Namamu
+  ['6285736178354', '❦ 𝚇 𝚒 𝚊 𝚘 - 𝚈𝚊𝚗? 🎐', true] //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
-global.mods = ['94753420144'] // Want some help?
-global.prems = ['94753420144'] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
+global.mods = [] // Want some help?
+global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
 
 
 global.lolkey = 'apikeymu'
@@ -99,13 +99,13 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = 'High Tech Lab Whatsapp Bot' //Main Watermark
-global.wm2 = 'High Tech Lab Whatsapp Bot'
-global.wm3 = '⫹⫺ High Tech Lab Whatsapp Bot'
-global.namedoc = 'High Tech Lab Bot' //Main Name Menu Document
+global.wm = '                「 ᴇʟᴀɪɴᴀ 𝙱𝙾𝚃 汉  」' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘ᴇʟᴀɪɴᴀ - ᴄʜᴀɴ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺ ᴇʟᴀɪɴᴀ 𝙱𝙾𝚃'
+global.namedoc = 'Elaina`s Bot' //Main Name Menu Document
 global.botdate = `⫹⫺ Day's: ${week} ${date}`
 global.bottime = `ᴛɪᴍᴇ: ${wktuwib}`
-global.titlebot = 'High Tech Lab Bot'
+global.titlebot = '🎋 ┊ 𝗥𝗣𝗚 ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
 global.author = global.wm
 
 
@@ -330,7 +330,7 @@ global.wait = '```「▰▰▰▱▱▱▱▱▱▱」Loading...```'
 global.eror = '```404 error```'
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '+94 75 342 0144'
+global.phn = '+62 857-3617-8354'
 
 /*=========== TYPE DOCUMENT ===========*/
 global.dpptx = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -340,7 +340,7 @@ global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 global.djson = 'application/json'
 
-global.thumbdoc = 'https://i.ibb.co/Nrm4T2x/High-Tech-Lab-logos.jpg'
+global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '99999999999999' // default 10TB
@@ -370,10 +370,10 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'High Tech Lab'
-global.stickauth = `whatsapp-bot\nwa.me/${global.nomorbot}`
-global.packname = 'Created By High TEch Lab'
-global.packname2 = 'whatsapp-bot'
+global.stickpack = '.'
+global.stickauth = `☂︎\n𝗘\nl\na\ni\nn\na\n-\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
+global.packname = 'Cʀᴇᴀᴛᴇᴅ Bʏ'
+global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴇʟᴀɪɴᴀ ʙᴏᴛᴢ'
 
 global.multiplier = 38 // The higher, The harder levelup
 
