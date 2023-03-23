@@ -25,7 +25,9 @@ const size = await yt.video[q].fileSizeH
 *💌 Size:* ${size}
 *💌 Type:* MP4
 
-*U P ＬO A D I N G . . .🎥*`)
+*U P ＬO A D I N G . . .🎥*
+
+Qᴜᴇᴇɴ - ᴍᴏᴏɴʟɪɢʜᴛ - ʙᴇᴛᴀ\nᴡᴇʙ ꜱɪᴛᴇ :- https://github.com/hightech-lab`)
   await conn.sendMessage(m.chat, { video : { url: dl_url, caption : ttl}}, { quoted: m })
 }
 
