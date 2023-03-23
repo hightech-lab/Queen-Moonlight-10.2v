@@ -39,6 +39,8 @@ let name = await conn.getName(who)
 *💌 Filesize:* ${audio.fileSizeH}
 
 *U P L O A D I N G . . .🎵*
+
+Qᴜᴇᴇɴ - ᴍᴏᴏɴʟɪɢʜᴛ - ʙᴇᴛᴀ\nᴡᴇʙ ꜱɪᴛᴇ :- https://github.com/hightech-lab
 `.trim(), m)
   if (!isLimit) await conn.sendFile(m.chat, source, title + '.mp3', '', fakes, null, { fileLength: fsizedoc, seconds: fsizedoc, mimetype: 'audio/mp4', contextInfo: {
           externalAdReply :{
