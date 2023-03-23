@@ -20,6 +20,7 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
 
 *🔗 Link:* ${url}
 
+Qᴜᴇᴇɴ - ᴍᴏᴏɴʟɪɢʜᴛ - ʙᴇᴛᴀ\nᴡᴇʙ ꜱɪᴛᴇ :- https://github.com/hightech-lab
 *╰────────⬣*`
   conn.sendButton(m.chat, `*💃 MOONLIGHT YT DOWNLOADER 💃*
   
@@ -33,6 +34,7 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
 
 *🔗 Link:* ${url}
 
+Qᴜᴇᴇɴ - ᴍᴏᴏɴʟɪɢʜᴛ - ʙᴇᴛᴀ\nᴡᴇʙ ꜱɪᴛᴇ :- https://github.com/hightech-lab
 *╰────────⬣*`, author.trim(), await( await conn.getFile(thumbnail)).data, ['🎥 GET VIDEO 🎥', `${usedPrefix}getvid ${url} 360`], false, { quoted: m, 'document': { 'url':'https://wa.me/12522518391' },
 'mimetype': global.dpdf,
 'fileName': `MOONLIGHT YT PLAYER`,
