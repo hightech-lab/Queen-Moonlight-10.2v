@@ -8,12 +8,12 @@ import uploadFile from "../lib/uploadFile.js"
 let handler = async (m, { conn, usedPrefix, args}) => {
 	let towidth = args[0]
 	let toheight = args[1]
-	if (!towidth) throw 'size width?'
-	if (!toheight) throw 'size height?'
+	if (!towidth) throw '*Size Width...?*'
+	if (!toheight) throw '*Size Height...?*'
 	
 let q = m.quoted ? m.quoted : m
 let mime = (q.msg || q).mimetype || ''
-if (!mime) throw "where the media?"
+if (!mime) throw "*Where The Media...?*"
 
 let media = await q.download()
 let isMedia = /image\/(png|jpe?g|gif)|video\/mp4/.test(mime)
@@ -34,7 +34,7 @@ let size = {
 let compres = await conn.resize(link, towidth - 0, toheight - 0)
 let linkcompres = await (isMedia ? uploadImage : uploadImage)(compres)
 
-conn.sendFile(m.chat, compres, null, `*${htki} COMPRESS RESIZE ${htka}*
+conn.sendFile(m.chat, compres, null, `*💃 MOONLIGHT BOT COMPRESS RESIZE 💃*
 
 *• BEFORE*
 > ᴡɪᴅᴛʜ : ${size.before.width}
@@ -46,7 +46,7 @@ conn.sendFile(m.chat, compres, null, `*${htki} COMPRESS RESIZE ${htka}*
 
 *• LINK*
 > ᴏʀɪɢɪɴᴀʟ : ${link}
-> ᴄᴏᴍᴘʀᴇss : ${linkcompres}`, m)
+> ᴄᴏᴍᴘʀᴇss : ${linkcompres}\n\nQᴜᴇᴇɴ - ᴍᴏᴏɴʟɪɢʜᴛ - ʙᴇᴛᴀ\nᴡᴇʙ ꜱɪᴛᴇ :- https://github.com/hightech-lab`, m)
 }
 handler.help = ['resize <width> <height> (reply|caption)']
 handler.tags = ['tools']
