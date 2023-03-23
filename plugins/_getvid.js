@@ -19,10 +19,13 @@ const dl_url = await yt.video[q].download()
   const ttl = await yt.title
 const size = await yt.video[q].fileSizeH
   
- await m.reply(`▢ Tɪᴛᴛʟᴇ: ${ttl}
-▢  Sɪᴢᴇ: ${size}
+ await m.reply(`*💃 MOONLIGHT VIDEO DOWNLOADER 💃*
+ 
+*💌 Title:* ${ttl}
+*💌 Size:* ${size}
+*💌 Type:* MP4
 
-▢ Ｌｏａｄｉｎｇ. . .`)
+*U P ＬO A D I N G . . .🎥*`)
   await conn.sendMessage(m.chat, { video : { url: dl_url, caption : ttl}}, { quoted: m })
 }
 
