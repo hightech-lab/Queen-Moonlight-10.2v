@@ -1,8 +1,8 @@
 import fetch from 'node-fetch'
 
 let handler = async (m, { conn, usedPrefix, args }) => {
-	let title = `— *S H O R T E D  U R L* —`
-    let caption = 'Silahkan Pilih Type Urlnya kak'
+	let title = `*💃 MOONLIGHT SHORTED URL GENERATOR 💃*`
+    let caption = '*Click the button below and select the URL Type you want.*\n\nQᴜᴇᴇɴ - ᴍᴏᴏɴʟɪɢʜᴛ - ʙᴇᴛᴀ\nᴡᴇʙ ꜱɪᴛᴇ :- https://github.com/hightech-lab'
 const sections = [
    {
 	title: "TYPE URL",
@@ -19,12 +19,12 @@ const listMessage = {
   text: caption,
   footer: null,
   title: title,
-  buttonText: "Shorted Link",
+  buttonText: "💌 SELECT YOUR URL TYPE 💌",
   sections
 }
 
-if (!args[0]) return m.reply('Linknya mana?')
-if (!args[0].startsWith('https://')) throw 'Masukan Url Dengan Awalan *https://*'
+if (!args[0]) return m.reply('*Need A Link...*')
+if (!args[0].startsWith('https://')) throw 'Please Give me a This Type Url:- *https://*'
 if (!args[1]) return conn.sendMessage(m.chat, listMessage, { quoted: m })
 
 let tesk = '🚀 *ʟɪɴᴋ:* '
