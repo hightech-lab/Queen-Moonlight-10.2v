@@ -303,7 +303,7 @@ let tek = `*💃 QUEEN MOONLIGHT BOT 10.2v 💃*
 ╭━━━━━━━━━━━━━━━━┈─✧
 ┴
 │⬡ *Bot Runtime* ${mpt}
-│⬡ *Info* ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 Please Plugin' : ''}` : 'Ful Charge'}
+│⬡ *Info* ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 Please Plugin' : ''}` : 'Full Charge'}
 │⬡ *Prefix* : [ ${_p} ]
 │⬡ *${Object.keys(global.db.data.users).length}* Pengguna
 │⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
