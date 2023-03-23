@@ -8,7 +8,7 @@ let str = `*💃 QUEEN MOONLIGHT INFO 💃*\n\n💌 Script : *https://github.com
     let ran = chen.split('\n')
     let yae = ran[Math.floor(Math.random() * ran.length)]
     let thumb = await(await fetch(yae)).buffer()
-conn.sendButtonDoc(m.chat, str, wm, 'ᴡᴀɴᴛ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ?', '🕵️‍♂️ CONTACT MY OWNER 🕵️‍♂️','.owner', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+conn.sendButtonDoc(m.chat, str, wm, 'ᴡᴀɴᴛ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ?', '🕵️‍♂️ THANKYOU HIGH TECH LAB 🕵️‍♂️','.tqto', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: global.sig,
     title: wm3,
     body: '💃 QUEEN MOONLIGHT BOT 💃',
