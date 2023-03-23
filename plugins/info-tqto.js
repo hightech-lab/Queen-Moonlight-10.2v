@@ -12,7 +12,8 @@ let handler = async (m) => {
     if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.sender
     else who = m.sender
     let user = global.db.data.users[who]
-let tqto = `*▸ - - - —「 BIG THANKS TO 」— - - - ◂*
+let tqto = `*🛠💻 TEAM HIGH - TECH - LAB 💻🛠*
+
 *❉ Adiwajshing:*
 https://github.com/adiwajshing
 *❉ Nurutomo:*
