@@ -79,8 +79,8 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = 'Queen Moonlight Bot 汉' //Main Watermark
-global.wm2 = 'QUEEN MOONLIGHT\nWEBSITE : https://github.com/hightech-lab'
+global.wm = 'Qᴜᴇᴇɴ - ᴍᴏᴏɴʟɪɢʜᴛ - ʙᴇᴛᴀ\nᴡᴇʙ ꜱɪᴛᴇ :- https://github.com/hightech-lab' //Main Watermark
+global.wm2 = 'Qᴜᴇᴇɴ - ᴍᴏᴏɴʟɪɢʜᴛ - ʙᴇᴛᴀ\nᴡᴇʙ ꜱɪᴛᴇ :- https://github.com/hightech-lab'
 global.wm3 = 'Queen Moonlight Bot'
 global.namedoc = '💃 Queen Moonlight 💃' //Main Name Menu Document
 global.botdate = `⫹⫺ Day's: ${week} ${date}`
