@@ -1,6 +1,3 @@
-// Script Ori By BochilGaming
-// Ditulis Ulang Oleh ImYanXiao
-
 import { promises } from 'fs'
 import { join } from 'path'
 import { xpRange } from '../lib/levelling.js'
@@ -27,10 +24,10 @@ const defaultMenu = {
 ┠─────═[ TODAY ]═─────⋆
 │╭────────────────···
 ┴│    *${ucapan()} %name!*
-⬡│☂︎ *Tanggal:* %week %weton
+⬡│☂︎ *Month:* %week %weton
 ⬡│☂︎ *Date:* %date
-⬡│☂︎ *Tanggal Islam:* %dateIslamic
-┬│☂︎ *Waktu:* %time
+⬡│☂︎ *Islam Date:* %dateIslamic
+┬│☂︎ *Time:* %time
 │╰────────────────···
 ┠─────═[ INFO BOT ]═─────⋆
 │╭────────────────···
@@ -301,30 +298,30 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
   },
 ]
 
-let tek = `✧────···[ Dashboard ]···────✧
+let tek = `*💃 QUEEN MOONLIGHT BOT 10.2v 💃*
 *${ucapan()} ${conn.getName(m.sender)}*
 ╭━━━━━━━━━━━━━━━━┈─✧
 ┴
-│⬡ Aktif selama ${mpt}
-│⬡ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-│⬡ Prefix : [ ${_p} ]
+│⬡ *Bot Runtime* ${mpt}
+│⬡ *Info* ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 Please Plugin' : ''}` : 'Ful Charge'}
+│⬡ *Prefix* : [ ${_p} ]
 │⬡ *${Object.keys(global.db.data.users).length}* Pengguna
 │⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 │⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
-│ ▸ *ᴀᴜᴛʜᴏʀ :* ʙᴏᴄʜɪʟɢᴀᴍɪɴɢ
-┴ ▸ *ᴏᴡɴᴇʀ :* ɪᴍ-ʏᴀɴxɪᴀᴏ
+│ ▸ *ᴀᴜᴛʜᴏʀ :* HIGH - TECH - LAB
+┴ ▸ *ᴏᴡɴᴇʀ :* Mr . Techo
 ✧
 ┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
-│ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
+│ https://youtube.com/@hightechlab2022
 ╰━━━━━━━━━━━━━━━━┈─◂`
 const listMessage = {
   text: tek,
   footer: wm2,
   mentions: await conn.parseMention(tek),
   title: ``,
-  buttonText: `Klik Disini ⎙`, 
+  buttonText: `💌 GET BOT MENU 💌`, 
   sections
 }
   if (teks == '404') {
@@ -485,7 +482,7 @@ const listMessage = {
     }
     }
     }
-    conn.reply(m.chat, '*Tunggu Sebentar Kak. . .*', ftrol) 
+    conn.reply(m.chat, '*_Wait. . ._*', ftrol) 
     
     //------------------< MENU >----------------
     
@@ -657,18 +654,18 @@ function clockStringP(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  let res = "Kok Belum Tidur Kak? 🥱"
+  let res = "I'm Sleeping Baby 🥱"
   if (time >= 4) {
-    res = "Pagi Lord 🌄"
+    res = "Good Morning 🌄"
   }
   if (time >= 10) {
-    res = "Siang Lord ☀️"
+    res = "Good Afternoon ☀️"
   }
   if (time >= 15) {
-    res = "Sore Lord 🌇"
+    res = "Good Evening 🌇"
   }
   if (time >= 18) {
-    res = "Malam Lord 🌙"
+    res = "Good Night 🌙"
   }
   return res
 }
