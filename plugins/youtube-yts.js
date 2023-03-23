@@ -13,7 +13,7 @@ let name = await conn.getName(m.sender)
           ['Audio 🎧', usedPrefix + 'getaud ' + v.url, '\n⌚ *Duration:* ' + v.timestamp + '\n⏲️ *Uploaded:* ' + v.ago + '\n👁️ *Views:* ' + v.views + '\n📎 *Url:* ' + v.url]
         ]])
 	}) 
-	return conn.sendList(m.chat, '*💃 MOONLIGHT YT SEARCH 💃*', `*Queen Moonlight Youtube Search Box...*\n*You searched for:* ${text}\n\nIf You Can Use *${usedPrefix + command}* To search for videos on YouTube`, author, `💌 YOUTUBE SEARCH 💌`, listSections, m)
+	return conn.sendList(m.chat, '*💃 MOONLIGHT YT SEARCH 💃*', `*Queen Moonlight Youtube Search Box...*\n*You searched for:* ${text}\n\nIf You Can Use *${usedPrefix + command}* To search for videos on YouTube\n\`, author, `💌 YOUTUBE SEARCH 💌`, listSections, m)
 }
 handler.help = ['ytsearch <query>']
 handler.tags = ['internet']
