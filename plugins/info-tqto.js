@@ -14,59 +14,17 @@ let handler = async (m) => {
     let user = global.db.data.users[who]
 let tqto = `*🛠💻 TEAM HIGH - TECH - LAB 💻🛠*
 
-*❉ Adiwajshing:*
-https://github.com/adiwajshing
-*❉ Nurutomo:*
-https://github.com/Nurutomo
-*❉ Istikmal:* 
-https://github.com/BochilGaming
-*❉ Ariffb:*
-https://github.com/Ariffb25
-*❉ Ilman:*
-https://github.com/ilmanhdyt
-*❉ Amirul:*
-https://github.com/amiruldev20
-*❉ Rasel:*
-https://github.com/raselcomel
-*❉ Fatur:*
-https://github.com/Ftwrr
-*❉ Rominaru:*
-https://github.com/Rominaru
-*❉ Kannachann:*
-https://github.com/Kannachann
-*❉ The.sad.boy01:*
-https://github.com/kangsad01
-*❉ Ameliascrf:*
-https://github.com/Ameliascrf
-*❉ Fokus ID:*
-https://github.com/Fokusdotid
-*❉ Johannes:*
-https://github.com/Johannes2803
-*❉ BrunoSobrino:*
-https://github.com/BrunoSobrino
-*❉ Krisna:*
-https://github.com/NevtBotz
-*❉ LitRHap:*
-https://github.com/LitRHap
-*❉ Rlxfly:*
-https://github.com/Rlxfly
-*❉ Aine:*
-https://github.com/Aiinne
-*❉ Papah-Chan:*
-https://github.com/FahriAdison
-*▸ - - - —「 Penulis Ulang 」— - - - ◂*
-*❉ ImYanXiao:*
-https://github.com/ImYanXiao
-*▸ - - - —「 Thanks For Help Me 」— - - - ◂*
-*❉ Kannachan:*
-*❉ The.sadboy.01:*
-*❉ Papah-Chan:*
-*❉ Johannes:*
-*❉ Krisna:*
-*❉ Rlxfly:*
+Special Thanks:
 
+*Ama Parami (Queen Moonlight)*
+*DPrabhash*
+*A.Malalasekara*
+*Mr . Chamiya*
+*Bimu Girl*
+
+*🥰 Thank You YanXiao 🥰*
 `
-conn.sendButtonDoc(m.chat, tqto, wm, 'ᴛʜᴀɴᴋ ʏᴏᴜ', 'Thanks','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+conn.sendButtonDoc(m.chat, tqto, wm, 'Thank You Mr . Techo', '🕵️‍♂️ OWNER 🕵️‍♂️','.owner', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: global.sig,
     mediaType: "VIDEO",
     description: global.sig, 
