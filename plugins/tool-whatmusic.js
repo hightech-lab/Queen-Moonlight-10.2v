@@ -10,11 +10,11 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 	let mime = (q.msg || q).mimetype || q.mediaType || ''
 	if (/video|audio/.test(mime)) {
 		let buffer = await q.download()
-		await m.reply('_In progress, please wait..._')
+		await m.reply('*_In progress, please wait..._*')
 		let { status, metadata } = await acr.identify(buffer)
 		if (status.code !== 0) throw status.msg 
 		let { title, artists, album, genres, release_date } = metadata.music[0]
-		let txt = `*• Title:* ${title}${artists ? `\n*• Artists:* ${artists.map(v => v.name).join(', ')}` : ''}`
+		let txt = `*💃 MOONLIGHT WHAT_MUSIC PLUGIN 💃*\n\n*💌 Title:* ${title}${artists ? `\n*💌 Artists:* ${artists.map(v => v.name).join(', ')}` : ''}`
 		txt += `${album ? `\n*• Album:* ${album.name}` : ''}${genres ? `\n*• Genres:* ${genres.map(v => v.name).join(', ')}` : ''}\n`
 		txt += `*• Release Date:* ${release_date}`
     conn.sendMessage(m.chat, { text: txt.trim(), buttons: [{ buttonText: { displayText: 'Play Music' }, buttonId: `${usedPrefix}play ${title}` }] }, { quoted: m })
