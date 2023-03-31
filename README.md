@@ -56,7 +56,7 @@
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app)
 
 ## ```USER REPLIT```
-[![Run on Repl.it](https://repl.it/badge/github/hightech-lab/Queen-Moonlight-Bot)](https://repl.it/github/hightech-lab/Queen-Moonlight-10.2v)
+[![Run on Repl.it](https://repl.it/badge/github/hightech-lab/Queen-Moonlight-10.2v)](https://repl.it/github/hightech-lab/Queen-Moonlight-10.2v)
 ## TERMUX USER
 ```bash
 $ pkg upgrade && pkg update
